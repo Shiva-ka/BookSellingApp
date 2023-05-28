@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbarSize="20sp"
+    android:background="@color/whatsAppColor"
+    tools:context=".SellCondition">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="1dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/sprofilepic"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/mans"
+
+            app:civ_border_color="#FF000000"
+            app:civ_border_width="2dp"
+
+
+            />
+
+        <ImageView
+            android:id="@+id/plus"
+            android:layout_width="43dp"
+            android:layout_height="43dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="-30dp"
+            app:srcCompat="@drawable/plusimg" />
+
+
+
+
+        <EditText
+            android:id="@+id/ssubject"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="23dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="23dp"
+            android:background="@drawable/buttonbackrnd"
+            android:ems="10"
+            android:hint="SUBJECT"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            android:padding="10dp" />
+
+
+        <EditText
+            android:id="@+id/semail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="23dp"
+            android:background="@drawable/buttonbackrnd"
+            android:ems="10"
+            android:hint="E-MAIL"
+            android:inputType="textEmailAddress"
+            android:minHeight="48dp"
+            android:padding="10dp" />
+
+        <EditText
+            android:id="@+id/sphone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="23dp"
+            android:background="@drawable/buttonbackrnd"
+            android:ems="10"
+            android:hint="PHONE NO."
+            android:inputType="phone"
+            android:minHeight="48dp"
+            android:padding="10dp" />
+
+        <EditText
+            android:id="@+id/sprice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="23dp"
+            android:background="@drawable/buttonbackrnd"
+            android:ems="10"
+            android:hint="PRICE"
+            android:inputType="number"
+            android:minHeight="48dp"
+            android:padding="10dp" />
+
+        <Button
+            android:id="@+id/sRegister"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="20dp"
+            android:text="REGISTER"
+            android:textSize="20sp" />
+    </LinearLayout>
+</RelativeLayout>
